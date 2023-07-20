@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "toprolog"
+version = "0.1.0"
+description = ""
+authors = ["Meowyam <maryammh@smu.edu.sg>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.9.0"
+transformers = "^4.11.3"
+pyswip = "^0.2.10"
+nltk = "^3.8.1"
+python-dotenv = "^1.0.0"
+openai = "^0.27.8"
+spacy = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
